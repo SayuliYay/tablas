@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Productos {
+namespace tablas {
     
     
     /// <summary>
@@ -2546,7 +2546,7 @@ namespace Productos {
         }
     }
 }
-namespace Productos.postgresDataSetTableAdapters {
+namespace tablas.postgresDataSetTableAdapters {
     
     
     /// <summary>
@@ -2727,7 +2727,7 @@ namespace Productos.postgresDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Npgsql.NpgsqlConnection();
-            this._connection.ConnectionString = global::Productos.Properties.Settings.Default.postgresConnectionString;
+            this._connection.ConnectionString = global::tablas.Properties.Settings.Default.postgresConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3273,7 +3273,7 @@ namespace Productos.postgresDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Npgsql.NpgsqlConnection();
-            this._connection.ConnectionString = global::Productos.Properties.Settings.Default.postgresConnectionString;
+            this._connection.ConnectionString = global::tablas.Properties.Settings.Default.postgresConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3842,7 +3842,7 @@ namespace Productos.postgresDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Npgsql.NpgsqlConnection();
-            this._connection.ConnectionString = global::Productos.Properties.Settings.Default.postgresConnectionString;
+            this._connection.ConnectionString = global::tablas.Properties.Settings.Default.postgresConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4303,7 +4303,7 @@ namespace Productos.postgresDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Npgsql.NpgsqlConnection();
-            this._connection.ConnectionString = global::Productos.Properties.Settings.Default.postgresConnectionString;
+            this._connection.ConnectionString = global::tablas.Properties.Settings.Default.postgresConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4739,7 +4739,7 @@ namespace Productos.postgresDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Npgsql.NpgsqlConnection();
-            this._connection.ConnectionString = global::Productos.Properties.Settings.Default.postgresConnectionString;
+            this._connection.ConnectionString = global::tablas.Properties.Settings.Default.postgresConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
