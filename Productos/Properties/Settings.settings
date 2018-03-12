@@ -5,10 +5,18 @@
     <Setting Name="inventariosConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Host=104.196.199.232;Database=inventarios;Username=inventarios;Password=123#&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Host=35.231.19.114;Database=inventarios;Username=inventarios;Password=123#&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;Npgsql&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Host=104.196.199.232;Database=inventarios;Username=inventarios;Password=123#</Value>
+      <Value Profile="(Default)">Host=35.231.19.114;Database=inventarios;Username=inventarios;Password=123#</Value>
+    </Setting>
+    <Setting Name="postgresConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Database=postgres;Host=35.196.140.151;Username=sayuli10;Persist Security Info=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Npgsql&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Database=postgres;Host=35.196.140.151;Username=sayuli10;Persist Security Info=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

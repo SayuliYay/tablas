@@ -107,6 +107,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,41 @@
     </Compile>
     <Compile Include="MDInventarios.Designer.cs">
       <DependentUpon>MDInventarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="postgresDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>postgresDataSet6.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,6 +209,83 @@
       <DependentUpon>inventariosDataSet.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="postgresDataSet.xsc">
+      <DependentUpon>postgresDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet.xss">
+      <DependentUpon>postgresDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet1.xsc">
+      <DependentUpon>postgresDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet1.xss">
+      <DependentUpon>postgresDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet2.xsc">
+      <DependentUpon>postgresDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet2.xss">
+      <DependentUpon>postgresDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet3.xsc">
+      <DependentUpon>postgresDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet3.xss">
+      <DependentUpon>postgresDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet4.xsc">
+      <DependentUpon>postgresDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet4.xss">
+      <DependentUpon>postgresDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet5.xsc">
+      <DependentUpon>postgresDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet5.xss">
+      <DependentUpon>postgresDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet6.xsc">
+      <DependentUpon>postgresDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="postgresDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>postgresDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="postgresDataSet6.xss">
+      <DependentUpon>postgresDataSet6.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
